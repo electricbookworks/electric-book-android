@@ -1,0 +1,15 @@
+// Rename this to build.json and add the details.
+// Do not commit build.json to your repository
+// with these details in it.
+// Finally, delete these comments. JSON can't have comments.
+{
+    "android": {
+        "release": {
+            "keystore": "path/to/keystore",
+            "storePassword": "storepassword",
+            "alias": "Aliasname",
+            "password": "password",            
+            "keystoreType": ""
+        }
+    }
+}

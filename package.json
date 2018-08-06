@@ -1,0 +1,42 @@
+{
+  "name": "com.example.myapp",
+  "displayName": "My App",
+  "version": "1.0.0",
+  "description": "An Apache Cordova application.",
+  "main": "index.js",
+  "scripts": {
+    "cordova": "cordova"
+  },
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "android-versions": "^1.3.0",
+    "com.flyingsoftgames.xapkreader": "https://github.com/agamemnus/cordova-plugin-xapkreader.git#cordova-6.5.0",
+    "cordova": "^6.5.0",
+    "cordova-android": "^6.3.0",
+    "cordova-plugin-whitelist": "^1.3.3"
+  },
+  "cordova": {
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "com.flyingsoftgames.xapkreader": {
+        "XAPK_PUBLIC_KEY": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvQWJMGP5jqcTyIUdRoF7s2qtD5ImMqJyYg+PjcIzFJ24snhJ6T8UNyVxIEGAO4INaKmGsRhcAomKOXjukxsI4BOJB6lKBM+mTpiHcUf4zR6bHPZbaDgUiHU1gr2fVjQbFhKTC6ezZE0JRoEguYpPVTd5I1tN0ff0BbyR7ynrYV5+TYHMQ9gamk1CL1OUVi4yFUyHnxInRCb0H2kLhvV17P8wSwqKWfBhAyA2mpNO3iVMNDKWR6FnqY8gicsp6k5KaHCezBjztLK7Iygk0uPObifglaXsNsMyuShNfMu7hEHMYbcEYP153NCNNQzw8fGAaIQB7sddugcCVEb3mRBaBwIDAQAB",
+        "XAPK_EXPANSION_AUTHORITY": "com.fireandlion.core.theeconomy.expansion",
+        "XAPK_TEXT_DL_ASSETS": "Downloading assets…",
+        "XAPK_TEXT_PR_ASSETS": "Preparing assets…",
+        "XAPK_TEXT_DL_FAILED": "Download failed.",
+        "XAPK_TEXT_ERROR": "Error.",
+        "XAPK_TEXT_CLOSE": "Close.",
+        "XAPK_MAIN_VERSION": "0",
+        "XAPK_PATCH_VERSION": "0",
+        "XAPK_MAIN_FILESIZE": "0",
+        "XAPK_PATCH_FILESIZE": "0",
+        "XAPK_AUTO_DOWNLOAD": "true",
+        "XAPK_PROGRESS_FORMAT": "percent"
+      }
+    },
+    "platforms": [
+      "android"
+    ]
+  }
+}
