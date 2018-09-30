@@ -28,6 +28,9 @@ title Electric Book: Building Android app with expansion file
     set /p language=
 
 :: Move app images to the expansion directory
+:: TO DO: 
+::   - allow for book folders not called 'book'
+::   - move images from '_items' into expansion folder, too
 :moveAppImages
     echo Deleting old expansion-main folder
     del "expansion-main"
