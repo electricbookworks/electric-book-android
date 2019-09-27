@@ -40,6 +40,10 @@ If you are building a translation, search this repo for all instances of `com.ex
    cordova prepare android
    ```
 
+   Open `platforms/android/project.properties` and find the line `cordova.system.library.1=com.google.android.gms:play-services-base:+`. Add `16.` before the plus sign, like this: `cordova.system.library.1=com.google.android.gms:play-services-base:16.+`
+
+   This avoids a known bug with google `play-services-base` https://developers.google.com/android/guides/releases#august_07_2019
+
    ```
    cordova build android
    ```
